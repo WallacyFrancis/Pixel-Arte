@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#color-palette {
+  list-style: none;
+}
+
+#color-palette li {
+  display: inline-block;
+}
+
+
+.color {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  margin-right: 8px;
+  margin-bottom: 9px;
+}
+
+#pixel-board {
+  margin-top: 9px;
+}
+
+.linha {
+  height: 40px;
+}
+
+.pixel {
+  width: 40px;
+  display: inline-block;
+}
+
+#black {
+  background-color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+table {
+  clear: both;
+  column-span: unset;
+  border-collapse: collapse;
+}
+
+.button {
+  clear: both;
+  display: block;
+}
+
+.Cpanel {
+  float: left;
+  margin-bottom: 12px;
+}
+
+button {
+  display: block;
+  width: 90px;
+  height: 20px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 8px;
+  background-color: #FD6747;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  float: left;
+  width: 150px;
+  border: none;
+  margin: 2px;
+}
+
+span {
+  display: block;
+}
